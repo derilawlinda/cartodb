@@ -3,7 +3,7 @@
   <Welcome />
   <MapsSection class="section" />
   <DatasetsSection class="section section--noBorder" />
-  <section class="section">
+  <section class="section section--metrics">
     <div class="container grid">
       <div class="full-width">
         <SectionTitle :title="metricsTitle">
@@ -11,10 +11,7 @@
             <img src="../../assets/icons/section-title/metrics.svg">
           </template>
         </SectionTitle>
-        <img svg-inline src="../../assets/placeholders/quotas.svg">
-        <div class="metrics-reset">
-          <span class="text is-small is-txtSoftGrey metrics-resetText">{{ $t(`HomePage.MetricsSection.reset`) }}</span>
-        </div>
+        <img src="../../assets/placeholders/quotas-section.png">
       </div>
     </div>
   </section>
@@ -53,18 +50,11 @@ export default {
 
 .page--welcome {
   padding: 64px 0;
+  border-bottom: none;
 }
 
-.metrics-reset {
-  display: flex;
-  justify-content: flex-end;
+.section--metrics {
+  background-color: $softblue;
 }
 
-.metrics-resetText {
-  margin-top: 16px;
-
-  &::before {
-    content: '*';
-  }
-}
 </style>
