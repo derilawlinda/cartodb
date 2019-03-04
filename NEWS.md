@@ -16,6 +16,9 @@ Development
 - Fix Lockout page ([product#261](https://github.com/CartoDB/product/issues/261))
 - Use .toLocaleDateString() to format date in notification page ([#14707](https://github.com/CartoDB/cartodb/pull/14707))
 - Fix likes feature in Search Page ([#14709](https://github.com/CartoDB/cartodb/pull/14709))
+- Adapt current dashboard's request interceptor ([#14489](https://github.com/CartoDB/cartodb/issues/14489))
+- Bulk actions in datasets and maps revised and fixed ([#14700](https://github.com/CartoDB/cartodb/pull/14700))
+- Fix .carto not creating a map in old dashboard ([#14713](https://github.com/CartoDB/cartodb/pull/14713))
 
 4.25.2 (2019-02-25)
 -------------------
