@@ -6,7 +6,7 @@ Development
 - **BREAKING**: Drop support for npm 3 and `npm-shrinkwrap.json` file.
 
 ### Features
-- None yet
+- Ghost tables event trigger creation [#14697](https://github.com/CartoDB/cartodb/issues/14697)
 
 ### Bug fixes / enhancements
 - Upgrade googleapis gem to 0.28 in order to make it compatible with ruby 2.4.5 [#14683](https://github.com/CartoDB/cartodb/pull/14683)
