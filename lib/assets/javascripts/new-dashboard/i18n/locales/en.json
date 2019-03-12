@@ -23,10 +23,10 @@
   },
   "QuickActions": {
     "title": "Quick actions",
-    "editInfo": "Edit Name & description",
-    "manageTags": "Manage Tags",
+    "editInfo": "Edit name & description",
+    "manageTags": "Manage tags",
     "createMap": "Create map",
-    "changePrivacy": "Change Privacy",
+    "changePrivacy": "Change privacy",
     "share": "Share with colleagues",
     "duplicate": "Duplicate",
     "lock": "Lock",
@@ -283,7 +283,7 @@
     "geocoding": "Geocoding",
     "isolines": "Isolines",
     "routing": "Routing",
-    "credits": "Your credits will be renewed the {day} of next month. "
+    "credits": "Your credits will be renewed in 0 days ({day} of each month). | Your credits will be renewed in {remainingDays} day ({day} of each month). | Your credits will be renewed in {remainingDays} days ({day} of each month)."
   },
   "Footer": {
     "HelpCenter": {
