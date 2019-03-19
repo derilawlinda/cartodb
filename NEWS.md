@@ -5,7 +5,11 @@ Development
 - None yet
 
 ### Features
-- Ghost tables event trigger creation [#14697](https://github.com/CartoDB/cartodb/issues/14697)
+* Ghost tables event trigger creation [#14697](https://github.com/CartoDB/cartodb/issues/14697)
+* Visualizations backup revamp [#14698](https://github.com/CartoDB/cartodb/issues/14698)
+  * Remove `VisualizationsExportService` [#14744](https://github.com/CartoDB/cartodb/pull/14744)
+  * `visualization_backups` table Migration [#14749](https://github.com/CartoDB/cartodb/pull/14749)
+  * New visualizations backup [#14745](https://github.com/CartoDB/cartodb/pull/14745)
 
 ### Bug fixes / enhancements
 - Remove locked maps from total_likes and total_shared counts [#14727](https://github.com/CartoDB/cartodb/pull/14727)
@@ -18,6 +22,8 @@ Development
   for the register phase in order to avoid multiple ghost table calls in the future[#14736](https://github.com/CartoDB/cartodb/pull/14736)
 - Design review changes ([CartoDB/product#272](https://github.com/CartoDB/product/issues/272))
 - Invite User menu missing go back icon ([#14739](https://github.com/CartoDB/cartodb/issues/14739))
+- Fix error when duplicating shared dataset in dashboard ([#14750](https://github.com/CartoDB/cartodb/issues/14750))
+- Set results per page to 6 in maps and datasets for Home Page ([#14756](https://github.com/CartoDB/cartodb/pull/14756))
 
 4.26.0 (2019-03-11)
 -------------------
